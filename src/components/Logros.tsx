@@ -28,7 +28,16 @@ function Logros() {
               Guerra Ninja, marcando la historia con su legado imborrable.
             </p>
           </div>
-          <div className="flex gap-16 place-items-center w-[95%] mx-auto ">
+        </div>
+        <div className="bg-logro bg-cover bg-no-repeat h-[700px] rounded-3xl ">
+          <div>
+            <img
+              src={imagenes}
+              alt="leroImg"
+              className="h-[700px] w-[1000px] p-6"
+            />
+          </div>
+          <div className="flex gap-16 justify-center -mt-28 ">
             {LogrosURl.map((img) => (
               <LogroCambio
                 key={img.ImgUrl}
@@ -37,15 +46,6 @@ function Logros() {
                 {...img}
               />
             ))}
-          </div>
-        </div>
-        <div className="bg-logro bg-cover bg-no-repeat h-[700px] rounded-4xl ">
-          <div>
-            <img
-              src={imagenes}
-              alt="leroImg"
-              className="h-[700px] w-[1000px] p-6"
-            />
           </div>
           
         </div>

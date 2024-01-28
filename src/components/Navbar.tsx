@@ -1,17 +1,15 @@
-
-import { Logo, LogoAvif } from "../assets/images";
+import { LogoAvif } from "../assets/images";
 import { Home } from "../constants";
 import { Close, Hamburger } from "../assets/icons";
 import NavbarModal from "./reusables/NavbarModal";
+import Button from "./reusables/Button";
 
-interface NavbarProps{
-  hambur:boolean
-  setHambur:(value:boolean)=>void
+interface NavbarProps {
+  hambur: boolean;
+  setHambur: (value: boolean) => void;
 }
 
-function Navbar({hambur,setHambur}:NavbarProps) {
-  
-
+function Navbar({ hambur, setHambur }: NavbarProps) {
   const Handleclik = () => {
     if (hambur) {
       return setHambur(false);
@@ -22,7 +20,7 @@ function Navbar({hambur,setHambur}:NavbarProps) {
   return (
     <header>
       <nav className="flex justify-between mx-7 mt-4 max-sm:mx-3">
-        <div >
+        <div>
           <img src={LogoAvif} alt="logo" width={250} />
         </div>
         <div className="flex gap-8 max-md:hidden">
@@ -38,9 +36,9 @@ function Navbar({hambur,setHambur}:NavbarProps) {
           </button>
         </div>
         <div className="md:hidden flex items-center relative z-50 ">
-          <button onClick={Handleclik} className="bg-white rounded-2xl">
+          <Button Handleclik={Handleclik} classButton="bg-white rounded-2xl">
             <img src={hambur ? Close : Hamburger} alt="" width={50} />
-          </button>
+          </Button>
         </div>
       </nav>
       <NavbarModal hambur={hambur} />
