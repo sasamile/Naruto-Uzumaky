@@ -27,12 +27,12 @@ function Hero() {
         </div>
       </div>
 
-      <div className="bg-fondo max-md:h-[600px] max-lg:h-[800px]   h-[700px] bg-no-repeat  bg-cover w-3/5 absolute top-0 right-0 -z-10 rounded-bl-4xl max-md:relative max-md:w-[100%] max-md:mx-auto max-md:rounded-none">
+      <div className="bg-fondo max-md:h-[600px] max-sm:h-[400px]  max-lg:h-[800px]  h-[700px] bg-no-repeat  bg-cover w-3/5 absolute top-0 right-0 -z-10 rounded-bl-4xl max-md:relative max-md:w-[100%] max-md:mx-auto max-md:rounded-none">
         <div className="bg-black/55 absolute inset-0 rounded-bl-4xl max-md:rounded-none">
           <img
             src={HeroImgAvif}
             alt="naruto"
-            className=" absolute bottom-0 h-[500px] rounded-bl-5xl max-md:rounded-none "
+            className=" absolute bottom-0 h-[500px] rounded-bl-5xl max-md:rounded-none max-sm:w-full max-sm:h-[100%]"
           />
         </div>
       </div>
