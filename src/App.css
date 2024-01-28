@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Russo+One&display=swap");
 
+
+
 .nav-link::before {
   content: "";
   position: absolute;
@@ -66,4 +68,11 @@
   opacity: 1;
   transform: translateY(1%);
 
+}
+
+.bg-fondo{
+  background-image: url("../public/Fondo.png");
+}
+.bg-logro{
+  background-image: url("../public/246675.jpg");
 }

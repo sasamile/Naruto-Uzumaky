@@ -1,4 +1,7 @@
+
+
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -11,12 +14,7 @@ export default {
     },
     
     extend: {
-      backgroundImage:{
-        "fondo":"url('./public/Fondo.png')",
-        "logro":"url('./public/246675.jpg')",
-
-        
-       },
+    
        borderRadius:{
          "4xl":"20%",
          "5xl":"22%"
