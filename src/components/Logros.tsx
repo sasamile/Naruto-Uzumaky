@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { NarutoSabio } from "../assets/images";
+import { NarutoSabioAvif } from "../assets/images";
 import LogroCambio from "./reusables/LogroCambio";
 import { LogrosURl } from "../constants";
 
 function Logros() {
-  const [imagenes, setImagenes] = useState(NarutoSabio);
+  const [imagenes, setImagenes] = useState(NarutoSabioAvif);
   return (
     <section className="mt-56">
       <div className="flex items-center w-[95%] mx-auto gap-16 max-md:flex-col">

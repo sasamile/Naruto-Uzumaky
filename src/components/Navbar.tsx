@@ -1,5 +1,5 @@
 
-import { Logo } from "../assets/images";
+import { Logo, LogoAvif } from "../assets/images";
 import { Home } from "../constants";
 import { Close, Hamburger } from "../assets/icons";
 import NavbarModal from "./reusables/NavbarModal";
@@ -23,7 +23,7 @@ function Navbar({hambur,setHambur}:NavbarProps) {
     <header>
       <nav className="flex justify-between mx-7 mt-4 max-sm:mx-3">
         <div >
-          <img src={Logo} alt="logo" width={250} />
+          <img src={LogoAvif} alt="logo" width={250} />
         </div>
         <div className="flex gap-8 max-md:hidden">
           <ul className="flex place-items-center gap-10 text-white font-Klee ">

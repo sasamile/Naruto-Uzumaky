@@ -1,27 +1,37 @@
-import Logo from "./Logo.png";
-import HeroImg from "./HeroImg.png";
-import CardSasuke from "./CardSasuke.jpg";
-import HoverCardSasuke from "./hoverCard.png";
-import CardSakura from "./CardSakura.png";
-import CardNaruto from "./CardNaruto.webp";
-import CardKakashi from "./CardKakasi.jpg";
-import HoverSakura from "./HoverSakura.png";
-import HoverNaruto from "./HoverNaruto.png";
-import HoverKakashi from "./HoverKakashi.png";
-import NarutoSabio from "./NarutoSabio.png"
-import NarutoHokage from "./naruto_hokage_modo_sabio_6_caminos_by_naironkr_dakddpn-fullview.png"
+
+import LogoAvif from "./Logo.avif";
+import HeroImgAvif from "./HeroImg.avif"
+import CardSasukeAvif from "./CardSasuke.avif"
+import HoverCardSasukeAvif from "./hoverCard.avif";
+import CardSakuraAvif from "./CardSakura.avif";
+import CardNarutoAvif from "./CardNaruto.webp";
+import CardKakashiAvif from "./CardKakasi.avif";
+import HoverSakuraAvif from "./HoverSakura.avif";
+import HoverNarutoAvif from "./HoverNaruto.avif";
+import HoverKakashiAvif from "./HoverKakashi.avif";
+import NarutoSabioAvif from "./NarutoSabio.avif"
+import NarutoHokageAvif from "./naruto_hokage_modo_sabio_6_caminos_by_naironkr_dakddpn-fullview.avif"
+
+
 
 export {
-  Logo,
-  HeroImg,
-  CardSasuke,
-  HoverCardSasuke,
-  CardKakashi,
-  CardNaruto,
-  CardSakura,
-  HoverKakashi,
-  HoverNaruto,
-  HoverSakura,
-  NarutoSabio,
-  NarutoHokage
+
+  LogoAvif,
+  HeroImgAvif,
+  CardSasukeAvif,
+  HoverCardSasukeAvif,
+  CardKakashiAvif,
+  CardNarutoAvif,
+  CardSakuraAvif,
+  HoverKakashiAvif,
+  HoverNarutoAvif,
+  HoverSakuraAvif,
+  NarutoSabioAvif,
+  NarutoHokageAvif,
+
+
+
+
+
+
 };

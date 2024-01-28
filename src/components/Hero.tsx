@@ -1,4 +1,4 @@
-import { HeroImg } from "../assets/images";
+import { HeroImgAvif } from "../assets/images";
 import { Legado } from "../constants";
 
 function Hero() {
@@ -17,8 +17,8 @@ function Hero() {
 
         <div className="flex gap-10 mt-10 max-md:justify-center">
           {Legado.map((lgd) => (
-            <div key={lgd.label} >
-              <h1 className="text-4xl text-orange-600 font-Russo text-center" >
+            <div key={lgd.label}>
+              <h1 className="text-4xl text-orange-600 font-Russo text-center">
                 {lgd.capitulos}
               </h1>
               <h3 className="font-Klee">{lgd.label}</h3>
@@ -30,7 +30,7 @@ function Hero() {
       <div className="bg-fondo max-md:h-[600px] max-lg:h-[800px]   h-[700px] bg-no-repeat  bg-cover w-3/5 absolute top-0 right-0 -z-10 rounded-bl-4xl max-md:relative max-md:w-[100%] max-md:mx-auto max-md:rounded-none">
         <div className="bg-black/55 absolute inset-0 rounded-bl-4xl max-md:rounded-none">
           <img
-            src={HeroImg}
+            src={HeroImgAvif}
             alt="naruto"
             className=" absolute bottom-0 h-[500px] rounded-bl-5xl max-md:rounded-none "
           />
